@@ -1,0 +1,41 @@
+
+.cart-body {
+  float:right;
+  width: 26%;
+  height: 100vh;
+  margin-right: 15px;
+}
+
+.cart-body ul{ 
+  margin:0;
+  padding:0;
+}
+.cart-body  h3{
+  background:#0095ff;
+  padding: 10px;
+  margin: 0;
+  text-align: left;
+}
+
+.cart-body  input{
+  width: 50px;
+}
+.cart-item {
+  width: 100%;
+  display: flex;
+  margin: 20px 0;
+  align-items: center;
+  border-bottom: 2px solid #000;
+  justify-content: space-between; 
+}
+
+.cart-item img{
+  height: 50px;
+}
+.cart-total {
+  font-size: 30px;
+  text-align: right;
+}
+.cart-total span {
+  font-weight: bold;
+}
